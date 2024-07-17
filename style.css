@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:'';
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 10;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.container-2{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*head*/
+.head{
+    background-image: url('Images/4DE935DD-0DCA-446A-9C54-0BC9CA6FF048.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-2 p{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 30px;
+}
+
+.flex .input{
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(220, 220, 220, 0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-2 a{
+    display: inline-block;
+    background-color: #20ac76;
+    color: #fff;
+    padding: 0px 50px;
+    font-size: 30px;
+}
+
+.flex input{
+    height: 45px;
+    padding: 10px;
+    width: 70%;
+    font-size: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 20px;
+}

@@ -1,0 +1,11 @@
+color:  #ff5215
+
+backgorund:#303030;
+
+background: linear-gradient(to bottom, #fbb450, #f89406);
+
+background-color: #f89406 #f89406 #ad6704l
+
+shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+color:#20ac76 #20ac76 #20ac76;
