@@ -44,6 +44,8 @@ a{
 
 .flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-2{
@@ -51,6 +53,19 @@ a{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.flex-3{
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*head*/
@@ -98,4 +113,76 @@ a{
 
 input::placeholder{
     font-size: 20px;
+}
+
+/*featured resturant*/
+.featured-resturant{
+    padding: 80px 0;
+}
+
+.card{
+    flex-basis: 30%;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    height: 300px;
+    color: #555;
+}
+
+.featured-resturant-head, .popular-food-head{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.featured-resturant-head img, .popular-food img{
+    width: 100%;
+}
+
+.card .col-2{
+    flex-basis: 100%;
+}
+
+.card .col img{
+    width: 60%;
+}
+
+.card h2{
+    font-size: 20px;
+    color: black;
+}
+
+.card i{
+    padding-right: 10px;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+.card i.closed{
+    color: #cc1414;
+}
+
+.line{
+    border-left: 1px solid #555;
+    height: 100%;
+}
+
+.line p{
+    padding-left: 10px;
+}
+
+.line p i{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: #20ac76;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex-4 .col img{
+    border: 1px solid #777;
+    padding: 10px;
 }
