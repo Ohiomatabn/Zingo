@@ -20,7 +20,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     margin-bottom: 20px;
-    padding: 10px 10;
+    padding: 20px;
 }
 
 p{
@@ -52,7 +52,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
 }
 
 .flex-3{
@@ -71,7 +71,7 @@ a{
 /*head*/
 .head{
     background-image: url('Images/4DE935DD-0DCA-446A-9C54-0BC9CA6FF048.jpeg');
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,4 +211,15 @@ input::placeholder{
 .how-it-works p{
     font-size: 22px;
     padding: 10px;
+}
+
+/*find local resturant*/
+.app{
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.app p{
+    font-size: 40px;
+    color: black;
 }
