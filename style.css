@@ -186,3 +186,29 @@ input::placeholder{
     border: 1px solid #777;
     padding: 10px;
 }
+
+/*how it works*/
+.how-it-works{
+    padding: 250px 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.how-it-works h2{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #ff5215;
+}
+
+.how-it-works h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.how-it-works p{
+    font-size: 22px;
+    padding: 10px;
+}
