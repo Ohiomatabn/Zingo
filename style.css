@@ -14,7 +14,7 @@ body{
 }
 
 h1{
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 400;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -91,7 +91,7 @@ ul{
 .flex-2 p{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .flex .input{
@@ -109,8 +109,8 @@ ul{
     display: inline-block;
     background-color: #20ac76;
     color: #fff;
-    font-size: 30px;
-    width: 300px;
+    font-size: 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -231,7 +231,7 @@ input::placeholder{
 }
 
 .app p{
-    font-size: 40px;
+    font-size: 20px;
     color: black;
 }
 
@@ -323,4 +323,50 @@ hr{
 
 .pd-1{
     padding-top: 20px;
+}
+
+@media (max-width:1200px){
+    .card{
+        flex-basis: 45%;
+    }
+
+    .agent .flex{
+        flex-direction: column;
+    }
+
+    .rider{
+        margin-right: 0;
+    }
+
+    .flex.rider, .flex.partner{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 700px){
+
+    .flex .input{
+        flex-direction: column;
+    }
+
+    .flex input{
+        min-width: 100%;
+    }
+
+    .card{
+        flex-basis: 100%;
+    }
+
+    .flex-5{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .flex-5 .col{
+        flex-basis: 45%;
+    }
+
+    .how-it-works .flex, .find-local-resturant .flex, .testimony .flex, .flex.rider, .flex.partner{
+        flex-direction: column;
+    }
 }
