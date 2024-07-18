@@ -223,3 +223,13 @@ input::placeholder{
     font-size: 40px;
     color: black;
 }
+
+/*testimony*/
+.red{
+    color: #ff5215;
+    font-size: 18px;
+}
+
+.testimony-text p{
+    font-size: 25px;
+}
