@@ -1,0 +1,1 @@
+import { resturants } from "./featured_resturant.js";
