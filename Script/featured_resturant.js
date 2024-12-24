@@ -55,5 +55,3 @@ resturants.forEach((resturant) =>{
 });
 
 document.querySelector('.js-resturant-container').innerHTML = resturantHTML;
-
-console.log(resturantHTML);
