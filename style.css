@@ -91,7 +91,7 @@ ul{
 /*head*/
 .head{
     background-image: url('Images/4DE935DD-0DCA-446A-9C54-0BC9CA6FF048.jpeg');
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -306,6 +306,7 @@ input::placeholder{
 footer{
     background-color: #000;
     color: #fff;
+    padding-top: 30px;
 }
 
 /*footer*/
@@ -323,7 +324,6 @@ hr{
     height: 1px;
     border: none;
     background-color: #fff;
-    margin-top: 40px;
 }
 
 .clone{
